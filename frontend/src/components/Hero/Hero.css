@@ -1,0 +1,199 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%);
+}
+
+.hero {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  color: #2c3e50;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #34495e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hero-subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #16a085;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.dates-div {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.date-input-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date-text-hero {
+  font-size: 1.2rem;
+  color: #1abc9c;
+  text-align: center;
+}
+
+.date-selection-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.date-label,
+.country-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.date-picker,
+.country-select {
+  padding: 10px;
+  font-size: 1rem;
+  color: #2c3e50;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.date-picker:focus,
+.country-select:focus {
+  outline: none;
+  border-color: #16a085;
+  box-shadow: 0 0 8px rgba(22, 160, 133, 0.5);
+}
+
+.future-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: #1abc9c;
+}
+
+.add-trip-btn {
+  background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.add-trip-btn:hover {
+  background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%);
+  transform: translateY(-2px);
+}
+
+.calculation-div {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.calculation-div h2 {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lightblue-color {
+  color: #1abc9c;
+}
+
+.red-color {
+  color: #e74c3c;
+}
+
+.trips-table {
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+.trips-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.trips-table th,
+.trips-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #bdc3c7;
+  color: #34495e;
+}
+
+.trips-table th {
+  background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+  color: #fff;
+  font-weight: 600;
+}
+
+.trips-table tbody tr:hover {
+  background-color: #ecf0f1;
+}
+
+@media (max-width: 768px) {
+  .date-input-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .future-option {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .hero-subheading {
+    font-size: 1.25rem;
+  }
+}
