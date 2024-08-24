@@ -12,8 +12,8 @@ const Navbar = () => {
         <Link to="/about" className="navbar-link">
           About
         </Link>
-        <Link to="/" className="navbar-link">
-          Services
+        <Link to="/visa-api" className="navbar-link">
+          Visa API
         </Link>
         <Link to="/" className="navbar-link">
           Contact

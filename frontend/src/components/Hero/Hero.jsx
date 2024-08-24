@@ -118,9 +118,10 @@ const Hero = () => {
         users and safety information about travel destinations.
       </p>
       <p>
-        Please read our USAGE STATEMENT. This app is for informational purposes
-        only. Users agree to use this at their own risk and discretion. Please
-        also refer to HOW TO USE this app.
+        Please read our <a href="/about">USAGE STATEMENT</a>. This app is for
+        informational purposes only. Users agree to use this at their own risk
+        and discretion. Please also refer to <a href="/about">HOW TO USE</a>{' '}
+        this app.
       </p>{' '}
       <h3 className="hero-subheading">Usage</h3>
       <p className="hero-text">
