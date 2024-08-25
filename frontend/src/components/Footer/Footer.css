@@ -37,7 +37,8 @@
 }
 
 .social-links a:hover {
-  color: #2ecc71;
+  color: #2cfe3a;
+
   transform: translateY(-2px);
 }
 

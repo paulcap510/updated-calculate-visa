@@ -15,8 +15,8 @@ const Navbar = () => {
         <Link to="/visa-api" className="navbar-link">
           Visa API
         </Link>
-        <Link to="/" className="navbar-link">
-          Contact
+        <Link to="/search" className="navbar-link">
+          Search
         </Link>
       </div>
     </div>

@@ -1,0 +1,137 @@
+.search-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Lato', sans-serif;
+  color: #34495e;
+  text-align: center;
+}
+
+.search-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #16a085;
+}
+
+.search-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.last-updated {
+  font-size: 1rem;
+  color: #e74c3c;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.search-buttons-div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.search-buttons-div ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.search-buttons-div button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #34495e;
+  background-color: transparent;
+  border: 2px solid #34495e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.search-buttons-div button:hover,
+.search-buttons-div button.active {
+  color: #ffffff;
+  background-color: #16a085;
+  border-color: #16a085;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+form input[type='text'] {
+  width: 50%;
+  padding: 12px 18px;
+  font-size: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+form input[type='text']:focus {
+  border-color: #1abc9c;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+
+form button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #16a085;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+form button:hover {
+  background-color: #1abc9c;
+}
+
+/* Results Table */
+.results-table {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.country-table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.country-table th,
+.country-table td {
+  padding: 15px;
+  font-size: 1rem;
+  color: #34495e;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.country-table th {
+  background-color: #16a085;
+  color: #ffffff;
+  text-align: center;
+}
+
+.country-table .info-title {
+  font-weight: 700;
+  color: #34495e;
+}
+
+.country-table tr:last-child td {
+  border-bottom: none;
+}
